@@ -4,31 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4512a14a-60a6-4bf2-80a0-5f464f98bb1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagesSapper/defusedbomb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagesSapper/emptyspot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagesSapper/explosion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagesSapper/flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagesSapper/hidingbomb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagesSapper/notopenedspot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagesSapper/one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagesSapper/three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagesSapper/two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/Coords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/Ranges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/enumlist.java" afterDir="false" />
+    <list default="true" id="4512a14a-60a6-4bf2-80a0-5f464f98bb1f" name="Changes" comment="only algorithm left :0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1682443565434</updated>
     </task>
+    <task id="LOCAL-00001" summary="only algorithm left">
+      <created>1683990397539</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683990397539</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="only algorithm left" />
+    <option name="LAST_COMMIT_MESSAGE" value="only algorithm left" />
   </component>
 </project>
