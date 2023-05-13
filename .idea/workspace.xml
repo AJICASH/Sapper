@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4512a14a-60a6-4bf2-80a0-5f464f98bb1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/imagesSapper/defusedbomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/imagesSapper/emptyspot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/imagesSapper/explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/imagesSapper/flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/imagesSapper/hidingbomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/imagesSapper/notopenedspot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/imagesSapper/one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/imagesSapper/three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/imagesSapper/two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/Coords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/Ranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/enumlist.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OvaZaMbNmbtRj3ptDPbzud8rlm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LavaLens/IdeaProjects/Sapper/Sapper/src/main/java/SapperPackage&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/LavaLens/IdeaProjects/Sapper/Sapper/src/main/java/SapperPackage&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LavaLens\IdeaProjects\Sapper\Sapper\res\imagesSapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LavaLens\IdeaProjects\Sapper\Sapper\res\imagesSapper" />
+      <recent name="C:\Users\LavaLens\IdeaProjects\Sapper\Sapper\res" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JavaSapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSapper" />
+      <module name="Sapper.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JavaSapper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4512a14a-60a6-4bf2-80a0-5f464f98bb1f" name="Changes" comment="" />
+      <created>1682443565434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682443565434</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
