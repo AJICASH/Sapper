@@ -12,6 +12,7 @@ public class JavaSapper extends JFrame {
     private JButton play;
     private JLabel sizeOfPictureLabel, bombsLeftLabel, flagsLeftLabel;
     private JTextField sizeOfPictureTextField, bombNumberText, flagNumberText;
+    private int amountBombs = 10;
     private int imgsize = 50;
     private int number = 56;
     private int rows = (int) Math.ceil(Math.sqrt(number));
@@ -22,7 +23,7 @@ public class JavaSapper extends JFrame {
         new JavaSapper();
     }
     private JavaSapper(){
-        game = new Game(cols,rows);
+        game = new Game(cols,rows, amountBombs);
         game.start();
         Ranges.setSize(new Coords(cols,rows));
         putPicture();
@@ -38,8 +39,6 @@ public class JavaSapper extends JFrame {
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
                 for (Coords coords: Ranges.getAllCoords()){
-                    System.out.println(coords.x);
-                    System.out.println(coords.y);
                     if (coords.y % 2 == 0){
                         g.drawImage((Image) game.getBox(coords).image, 12 + coords.x * imgsize, (int) (coords.y * imgsize - coords.y * consty), this);
                     }else {

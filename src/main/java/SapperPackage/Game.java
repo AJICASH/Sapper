@@ -1,15 +1,15 @@
 package SapperPackage;
 
 public class Game {
-    Matrix bombMaxtrix;
-    public Game(int cols, int rows) {
+    private BombClass bomb;
+    public Game(int cols, int rows, int amountBombs) {
         Ranges.setSize(new Coords(cols,rows));
+        bomb = new BombClass(amountBombs);
     }
     public void start(){
-        bombMaxtrix = new Matrix(enumlist.emptyspot);
-//        bombMaxtrix.setMatrix(new Coords(6,0), enumlist.hidingbomb);
+      bomb.start();
     }
     public enumlist getBox(Coords coords){
-        return bombMaxtrix.getMatrix(coords);
+        return bomb.getBomb(coords);
     }
 }

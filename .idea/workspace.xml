@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4512a14a-60a6-4bf2-80a0-5f464f98bb1f" name="Changes" comment="only algorithm left :0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/BombClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JavaSapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaSapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SapperPackage/Coords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/Coords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SapperPackage/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SapperPackage/Ranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/Ranges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SapperPackage/enumlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/enumlist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683990956227</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="only algorithm left :0">
+      <created>1684424409189</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684424409189</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

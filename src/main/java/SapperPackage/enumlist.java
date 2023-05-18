@@ -14,4 +14,7 @@ public enum enumlist {
     defusedbomb;
 
     public Object image;
+    enumlist getNextNumber(){
+        return enumlist.values()[this.ordinal() + 1];
+    }
 }
