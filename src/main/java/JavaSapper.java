@@ -1,17 +1,19 @@
 import javax.swing.*;
 import java.awt.*;
 import SapperPackage.Coords;
+import SapperPackage.Game;
 import SapperPackage.Ranges;
 import SapperPackage.enumlist;
 import org.w3c.dom.ls.LSOutput;
 
 public class JavaSapper extends JFrame {
+    private Game game;
     private JPanel panel, panel2;
     private JButton play;
     private JLabel sizeOfPictureLabel, bombsLeftLabel, flagsLeftLabel;
     private JTextField sizeOfPictureTextField, bombNumberText, flagNumberText;
     private int imgsize = 50;
-    private int number = 79;
+    private int number = 56;
     private int rows = (int) Math.ceil(Math.sqrt(number));
     private int cols = (int) Math.ceil(Math.sqrt(number));
     private double consty = 12.5;
@@ -20,6 +22,8 @@ public class JavaSapper extends JFrame {
         new JavaSapper();
     }
     private JavaSapper(){
+        game = new Game(cols,rows);
+        game.start();
         Ranges.setSize(new Coords(cols,rows));
         putPicture();
         CreatePanel();
@@ -37,9 +41,9 @@ public class JavaSapper extends JFrame {
                     System.out.println(coords.x);
                     System.out.println(coords.y);
                     if (coords.y % 2 == 0){
-                        g.drawImage((Image) enumlist.values()[(coords.x + coords.y) % enumlist.values().length].image, 12 + coords.x * imgsize, (int) (coords.y * imgsize - coords.y * consty), this);
+                        g.drawImage((Image) game.getBox(coords).image, 12 + coords.x * imgsize, (int) (coords.y * imgsize - coords.y * consty), this);
                     }else {
-                        g.drawImage((Image) enumlist.values()[(coords.x + coords.y) % enumlist.values().length].image, 12 + coords.x  * imgsize + 25, (int) (coords.y * imgsize - coords.y * consty), this);
+                        g.drawImage((Image) game.getBox(coords).image, 12 + coords.x  * imgsize + 25, (int) (coords.y * imgsize - coords.y * consty), this);
                     }
                 }
             }
@@ -48,13 +52,13 @@ public class JavaSapper extends JFrame {
         add(panel);
     }
     private void CreateFrame(){
-        pack();
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setTitle("Java sapper");
         setLocationRelativeTo(null);
         setResizable(true);
         setVisible(true);
-        setIconImage(printImage("defusedbomb"));
+        setIconImage(printImage("mushroom"));
+        pack();
     }
 
     private void putPicture(){
