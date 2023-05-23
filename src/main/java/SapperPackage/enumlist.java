@@ -2,13 +2,17 @@ package SapperPackage;
 
 
 public enum enumlist {
-    notopenedspot,
+    zero,
     one,
     two,
     three,
+    four,
+    five,
+    six,
     hidingbomb,
 
     emptyspot,
+    notopenedspot,
     flag,
     explosion,
     defusedbomb;
