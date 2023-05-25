@@ -98,7 +98,6 @@ public class Game {
 
         start();
         flagsLeft = bomb.amountBombs();
-        System.out.println(flagsLeft);
         return true;
     }
 }

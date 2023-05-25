@@ -1,31 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Sapper:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4512a14a-60a6-4bf2-80a0-5f464f98bb1f" name="Changes" comment="80%">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagesSapper/five.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagesSapper/four.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagesSapper/mushroom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagesSapper/six.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/imagesSapper/zero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/WinLosePlaying.java" afterDir="false" />
+    <list default="true" id="4512a14a-60a6-4bf2-80a0-5f464f98bb1f" name="Changes" comment="99.9%">
+      <change afterPath="$PROJECT_DIR$/res/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/imagesSapper/defusedbomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/imagesSapper/defusedbomb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/imagesSapper/emptyspot.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/imagesSapper/emptyspot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/imagesSapper/explosion.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/imagesSapper/explosion.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/imagesSapper/flag.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/imagesSapper/flag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/imagesSapper/hidingbomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/imagesSapper/hidingbomb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/imagesSapper/notopenedspot.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/imagesSapper/notopenedspot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/imagesSapper/one.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/imagesSapper/one.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/imagesSapper/three.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/imagesSapper/three.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/imagesSapper/two.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/imagesSapper/two.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JavaSapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaSapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SapperPackage/BombClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/BombAndFlagClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SapperPackage/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SapperPackage/enumlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SapperPackage/enumlist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,16 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/LavaLens/IdeaProjects/Sapper/Sapper/src/main/java/SapperPackage",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "two.files.diff.last.used.folder": "C:/Users/LavaLens/IdeaProjects/Sapper/Sapper/src/main/java/SapperPackage"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LavaLens/IdeaProjects/Sapper/Sapper/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/LavaLens/IdeaProjects/Sapper/Sapper/src/main/java/SapperPackage&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LavaLens\IdeaProjects\Sapper\Sapper\res\imagesSapper" />
@@ -134,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684434707161</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="99.9%">
+      <created>1684881390496</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684881390496</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +149,7 @@
     <MESSAGE value="only algorithm left" />
     <MESSAGE value="only algorithm left :0" />
     <MESSAGE value="80%" />
-    <option name="LAST_COMMIT_MESSAGE" value="80%" />
+    <MESSAGE value="99.9%" />
+    <option name="LAST_COMMIT_MESSAGE" value="99.9%" />
   </component>
 </project>
