@@ -87,7 +87,7 @@ public class JavaSapper extends JFrame {
         flagsLeftLabelLabel.setText("FLAGS LEFT " + flagsLeft);
         add(flagsLeftLabelLabel, BorderLayout.PAGE_START);
     }
-
+    public int steps = 0;
     private void CreatePanel(){
 
         panel2 = new JPanel() {
@@ -112,7 +112,6 @@ public class JavaSapper extends JFrame {
                 if (e.getButton() == MouseEvent.BUTTON1) {
                     game.pressLB(coords);
                     panel2.repaint();
-
                 }
                 if (e.getButton() == MouseEvent.BUTTON3) {
                     enumlist flag = game.getBox(coords);
@@ -143,6 +142,7 @@ public class JavaSapper extends JFrame {
                     flagsLeft = amountBombs;
                     flagsLeftLabelLabel.setText("FLAGS LEFT " + flagsLeft);
                 }
+
             }
         });
 

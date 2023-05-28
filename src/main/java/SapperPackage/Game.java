@@ -4,12 +4,17 @@ public class Game {
     private BombAndFlagClass bomb;
     private BombAndFlagClass flag;
     private WinLosePlaying state;
+    private Coords firstClickCoords = null;
+    private boolean firstClick = true;
+
+
     private int flagsLeft;
     public Game(int cols, int rows, int amountBombs) {
         Ranges.setSize(new Coords(cols,rows));
         bomb = new BombAndFlagClass(amountBombs);
         flag = new BombAndFlagClass(amountBombs);
         flagsLeft = amountBombs;
+
     }
 
     public WinLosePlaying getState() {
@@ -20,6 +25,7 @@ public class Game {
       bomb.start();
       flag.start();
       state = WinLosePlaying.PLAYING;
+      firstClickCoords = null;
     }
     public enumlist getBox(Coords coords){
         if (flag.getFlag(coords) == enumlist.emptyspot){
@@ -27,7 +33,6 @@ public class Game {
         }
         else {
             return flag.getFlag(coords);
-
         }
     }
     private void winOrNot(){
@@ -71,12 +76,23 @@ public class Game {
     }
 
     public void pressLB(Coords coords) {
-        if (end()){
+        if (end()) {
             return;
         }
+        if (firstClickCoords == null) {
+            firstClickCoords = coords;
+            if (bomb.getBomb(firstClickCoords) == enumlist.hidingbomb) {
+                while (bomb.getBomb(firstClickCoords) == enumlist.hidingbomb) {
+                    bomb.start();
+                }
+            }
+        }
+
         open(coords);
         winOrNot();
     }
+
+
 
     public void pressRB(Coords coords) {
         if (end()){
@@ -95,7 +111,6 @@ public class Game {
         if (state == WinLosePlaying.PLAYING){
             return false;
         }
-
         start();
         flagsLeft = bomb.amountBombs();
         return true;
