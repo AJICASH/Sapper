@@ -9,7 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4512a14a-60a6-4bf2-80a0-5f464f98bb1f" name="Changes" comment="100%, исправлена ошибка открытия первой бомбы">
+    <list default="true" id="4512a14a-60a6-4bf2-80a0-5f464f98bb1f" name="Changes" comment="100%, исправлена ошибка открытия первой бомбы, + отчет">
+      <change afterPath="$PROJECT_DIR$/Отчет.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +59,7 @@
       <recent name="C:\Users\LavaLens\IdeaProjects\Sapper\Sapper\res\imagesSapper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LavaLens\IdeaProjects\Sapper\Sapper" />
       <recent name="C:\Users\LavaLens\IdeaProjects\Sapper\Sapper\res\imagesSapper" />
       <recent name="C:\Users\LavaLens\IdeaProjects\Sapper\Sapper\res" />
     </key>
@@ -141,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685301636376</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="100%, исправлена ошибка открытия первой бомбы, + отчет">
+      <created>1685368927143</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685368927143</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +171,7 @@
     <MESSAGE value="99.9%" />
     <MESSAGE value="100%" />
     <MESSAGE value="100%, исправлена ошибка открытия первой бомбы" />
-    <option name="LAST_COMMIT_MESSAGE" value="100%, исправлена ошибка открытия первой бомбы" />
+    <MESSAGE value="100%, исправлена ошибка открытия первой бомбы, + отчет" />
+    <option name="LAST_COMMIT_MESSAGE" value="100%, исправлена ошибка открытия первой бомбы, + отчет" />
   </component>
 </project>
